@@ -480,4 +480,4 @@ Saya sangat terbuka dengan custom request untuk meningkatkan value bot ini. Fitu
 
 ---
 
-© 2024 MT Bot — Premium Telegram Bot Solution. All rights reserved.
+© 2026 MT — Premium Telegram Bot Solution. All rights reserved.
