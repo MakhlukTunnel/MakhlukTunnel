@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <div align="center">
-  
+
 # 🤖 MT-BOT — Premium Telegram Bot Solution
 
 ### Auto Order VPN • 4 Payment Gateway • Reseller System • 7 Protocols
@@ -24,7 +20,6 @@
 - [✨ Fitur Unggulan](#-fitur-unggulan)
 - [💳 4 Payment Gateway](#-4-payment-gateway)
 - [🎯 Mengapa MT-BOT?](#-mengapa-mt-bot)
-- [🏗️ Arsitektur Sistem](#️-arsitektur-sistem)
 - [📱 Tampilan Interface](#-tampilan-interface)
 - [📊 Perbandingan Kompetitor](#-perbandingan-kompetitor)
 - [💎 Skema Lisensi](#-skema-lisensi)
@@ -38,53 +33,24 @@
 
 ### 🎮 Auto Order System — 7 Protokol Lengkap
 
-<table>
-  <thead>
-    <tr>
-      <th>Protokol</th>
-      <th>Core</th>
-      <th>Output Config</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>🌐 <strong>VMess</strong></td><td>Xray</td><td>WS, gRPC, XHTTP, Upgrade</td></tr>
-    <tr><td>📡 <strong>VLess</strong></td><td>Xray</td><td>WS, gRPC, XHTTP, Upgrade</td></tr>
-    <tr><td>⚔️ <strong>Trojan</strong></td><td>Xray</td><td>WS, gRPC, XHTTP, Upgrade</td></tr>
-    <tr><td>🧦 <strong>Shadowsocks</strong></td><td>Xray</td><td>WS, gRPC, XHTTP, Upgrade</td></tr>
-    <tr><td>🔑 <strong>SSH</strong></td><td>OpenSSH</td><td>SSH, UDP, OpenVPN, SlowDNS</td></tr>
-    <tr><td>🔐 <strong>NoobzVPN</strong></td><td>Noobz</td><td>TCP STD, TCP SSL</td></tr>
-    <tr><td>💲 <strong>ZiVPN</strong></td><td>UDP Custom</td><td>UDP ZiVPN</td></tr>
-  </tbody>
-</table>
+| Protokol | Core | Output Config |
+|----------|------|---------------|
+| 🌐 **VMess** | Xray | WS, gRPC, XHTTP, Upgrade |
+| 📡 **VLess** | Xray | WS, gRPC, XHTTP, Upgrade |
+| ⚔️ **Trojan** | Xray | WS, gRPC, XHTTP, Upgrade |
+| 🧦 **Shadowsocks** | Xray | WS, gRPC, XHTTP, Upgrade |
+| 🔑 **SSH** | OpenSSH | SSH, UDP, OpenVPN, SlowDNS |
+| 🔐 **NoobzVPN** | Noobz | TCP STD, TCP SSL |
+| 💲 **ZiVPN** | UDP Custom | UDP ZiVPN |
 
-<br>
-
-<table>
-  <tr>
-    <td>⚡ <strong>Auto Create</strong></td>
-    <td>Buat akun VPN ≤ 3 detik via API server</td>
-  </tr>
-  <tr>
-    <td>🎁 <strong>Trial 15 Menit</strong></td>
-    <td>Calon pelanggan bisa coba gratis</td>
-  </tr>
-  <tr>
-    <td>🔄 <strong>1-Klik Renew</strong></td>
-    <td>Perpanjang akun tanpa input ulang</td>
-  </tr>
-  <tr>
-    <td>📊 <strong>Live Usage</strong></td>
-    <td>Cek bandwidth & koneksi real-time</td>
-  </tr>
-  <tr>
-    <td>🗑️ <strong>1-Klik Delete</strong></td>
-    <td>Hapus akun langsung dari bot</td>
-  </tr>
-  <tr>
-    <td>📈 <strong>Prorata Bandwidth</strong></td>
-    <td>Kuota disesuaikan durasi sewa</td>
-  </tr>
-</table>
+**Fitur Order:**
+- ⚡ **Auto Create** — Buat akun VPN ≤ 3 detik via API server
+- 🎁 **Trial Configurable** — Durasi trial bisa diatur (menit/jam/hari)
+- 🔄 **1-Klik Renew** — Perpanjang tanpa input ulang
+- 📊 **Live Usage** — Cek bandwidth & koneksi real-time
+- 🗑️ **1-Klik Delete** — Hapus akun langsung dari bot
+- 📈 **Prorata Bandwidth** — Kuota disesuaikan durasi sewa
+- 💰 **Refund Otomatis** — Refund sisa hari saat hapus akun
 
 ### 👥 Manajemen 3 Level Role
 
@@ -106,38 +72,38 @@
 
 ### 🎫 Promo Code System — 6 Parameter Targeting
 
-<table>
-  <thead>
-    <tr><th>Parameter</th><th>Contoh</th><th>Fungsi</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>🎁 Tipe Promo</td><td>deposit / purchase</td><td>Bonus saldo atau diskon</td></tr>
-    <tr><td>👥 Role</td><td>member / reseller</td><td>Hanya untuk role tertentu</td></tr>
-    <tr><td>📦 Produk</td><td>VMess SG / SSH ID</td><td>Hanya untuk produk tertentu</td></tr>
-    <tr><td>💰 Min Transaksi</td><td>Rp 50.000</td><td>Minimal belanja</td></tr>
-    <tr><td>💰 Max Transaksi</td><td>Rp 500.000</td><td>Maksimal diskon</td></tr>
-    <tr><td>🔢 Max Usage</td><td>100x global</td><td>Batas pemakaian total</td></tr>
-    <tr><td>👤 Max Per User</td><td>1x per user</td><td>Batas per user</td></tr>
-    <tr><td>⏱️ Masa Aktif</td><td>7 / 30 / 365 hari</td><td>Promo terbatas waktu</td></tr>
-  </tbody>
-</table>
+| Parameter | Contoh | Fungsi |
+|-----------|--------|--------|
+| 🎁 **Tipe Promo** | deposit / purchase | Bonus saldo atau diskon |
+| 👥 **Role** | member / reseller | Hanya untuk role tertentu |
+| 📦 **Produk** | VMess SG / SSH ID | Hanya untuk produk tertentu |
+| 💰 **Min Transaksi** | Rp 50.000 | Minimal belanja |
+| 💰 **Max Transaksi** | Rp 500.000 | Maksimal diskon |
+| 🔢 **Max Usage** | 100x global | Batas pemakaian total |
+| 👤 **Max Per User** | 1x per user | Batas per user |
+| ⏱️ **Masa Aktif** | 7 / 30 / 365 hari | Promo terbatas waktu |
 
 ### 🛠️ Admin Panel Lengkap
 
-<table>
-  <thead>
-    <tr><th>Menu</th><th>Fungsi</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>⚙️ Settings Live</td><td>Edit konfigurasi tanpa restart bot</td></tr>
-    <tr><td>📡 Server Manager</td><td>CRUD server + harga dual-role (member/reseller)</td></tr>
-    <tr><td>👥 User Manager</td><td>CRUD user, edit saldo/role/email, cari user</td></tr>
-    <tr><td>🎁 Promo Manager</td><td>CRUD promo dengan 6 parameter targeting</td></tr>
-    <tr><td>📢 Broadcast</td><td>Kirim ke @user, ID, all, admin, member, reseller</td></tr>
-    <tr><td>💾 Auto Backup</td><td>Database dikirim ke admin tiap tengah malam</td></tr>
-    <tr><td>🔔 Notifikasi</td><td>Topup & order notifikasi ke admin configurable</td></tr>
-  </tbody>
-</table>
+| Menu | Fungsi |
+|------|--------|
+| ⚙️ **Settings Live** | Edit konfigurasi tanpa restart bot (7 kategori) |
+| 📡 **Server Manager** | CRUD server + Reset Stock + harga dual-role |
+| 👥 **User Manager** | CRUD user, edit saldo/role/email, cari user |
+| 🎁 **Promo Manager** | CRUD promo dengan 6 parameter targeting |
+| 📢 **Broadcast** | Kirim ke @user, ID, all, admin, member, reseller |
+| 💾 **Auto Backup** | Database dikirim ke admin tiap tengah malam |
+| 🔔 **Notifikasi** | Topup & order notifikasi ke admin configurable |
+
+### 🆕 Fitur Baru (Update Terbaru)
+
+| Fitur | Keterangan |
+|-------|-------------|
+| 💰 **Minimal Deposit** | Bisa diatur via Settings (default Rp 1.000) |
+| ⏱️ **Durasi Trial** | Bisa diatur (menit/jam/hari) via Settings |
+| 🔄 **Reset Stock Server** | Reset counter akun tanpa hapus transaksi |
+| 🔒 **Masking User** | Privasi user di notifikasi (contoh: jo******) |
+| 💰 **Refund Otomatis** | Refund sisa hari saat hapus akun (ikut harga server saat ini) |
 
 ---
 
@@ -145,26 +111,12 @@
 
 ### Perbandingan Gateway
 
-<table>
-  <thead>
-    <tr>
-      <th>Gateway</th>
-      <th>Metode</th>
-      <th>Verifikasi</th>
-      <th>Kecepatan</th>
-      <th>Deposit</th>
-      <th>Withdraw</th>
-      <th>Cek Saldo</th>
-      <th>Mutasi</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><strong>OrderKuota (Asli)</strong></td><td>QRIS</td><td>Polling 60s</td><td>&lt; 1 menit</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td><strong>OrderKuota RafanStr</strong></td><td>QRIS</td><td>Webhook</td><td>&lt; 3 detik</td><td>✅</td><td>✅ (e-wallet)</td><td>✅</td><td>❌</td></tr>
-    <tr><td><strong>Tripay</strong></td><td>QRIS/VA/Retail</td><td>Webhook HMAC</td><td>&lt; 3 detik</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td></tr>
-    <tr><td><strong>Tokopay</strong></td><td>QRIS</td><td>Webhook MD5</td><td>&lt; 3 detik</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td></tr>
-  </tbody>
-</table>
+| Gateway | Metode | Verifikasi | Kecepatan | Deposit | Withdraw | Cek Saldo | Mutasi |
+|---------|--------|-----------|-----------|---------|----------|-----------|--------|
+| **OrderKuota (Asli)** | QRIS | Polling 60s | < 1 menit | ✅ | ✅ | ✅ | ✅ |
+| **OrderKuota RafanStr** | QRIS | Webhook | < 3 detik | ✅ | ✅ (e-wallet) | ✅ | ❌ |
+| **Tripay** | QRIS/VA/Retail | Webhook HMAC | < 3 detik | ✅ | ❌ | ❌ | ❌ |
+| **Tokopay** | QRIS | Webhook MD5 | < 3 detik | ✅ | ❌ | ❌ | ❌ |
 
 ### Detail Masing-masing Gateway
 
@@ -174,7 +126,7 @@
 | Keunggulan | Kekurangan |
 |------------|------------|
 | Bisa pakai akun OrderKuota sendiri | Verifikasi via polling (60 detik) |
-| Full fitur: Deposit, Withdraw, Cek Saldo, Mutasi | Perlu konfigurasi auth_username, auth_token, data_qris |
+| Full fitur: Deposit, Withdraw, Cek Saldo, Mutasi | Perlu konfigurasi lengkap |
 | QRIS generate sendiri | |
 
 </details>
@@ -218,101 +170,40 @@
 
 ### 🔥 Keunggulan Dibanding Bot Lain
 
-<table>
-  <thead>
-    <tr>
-      <th>Aspek</th>
-      <th>🥇 <strong>MT-BOT</strong></th>
-      <th>🥈 Bot X</th>
-      <th>🥉 Bot Y</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><strong>7 Protokol</strong></td><td>✅</td><td>❌ (3)</td><td>✅ (5)</td></tr>
-    <tr><td><strong>4 Payment GW</strong></td><td>✅</td><td>❌ (1)</td><td>❌ (2)</td></tr>
-    <tr><td><strong>OrderKuota Asli</strong></td><td>✅ Full</td><td>❌</td><td>❌ Only QRIS</td></tr>
-    <tr><td><strong>OrderKuota RFS</strong></td><td>✅ Webhook</td><td>❌</td><td>❌</td></tr>
-    <tr><td><strong>Reseller Auto</strong></td><td>✅ + Downgrade</td><td>❌</td><td>✅ Manual</td></tr>
-    <tr><td><strong>Promo Targeting</strong></td><td>✅ 6 Parameter</td><td>❌ Basic</td><td>❌ Basic</td></tr>
-    <tr><td><strong>Settings Live</strong></td><td>✅ No Restart</td><td>❌</td><td>❌</td></tr>
-    <tr><td><strong>Prorata BW</strong></td><td>✅ Otomatis</td><td>❌</td><td>❌</td></tr>
-    <tr><td><strong>Dual Pricing</strong></td><td>✅ Member/Reseller</td><td>❌</td><td>✅</td></tr>
-    <tr><td><strong>DB Auto Backup</strong></td><td>✅ Harian</td><td>❌</td><td>❌</td></tr>
-    <tr><td><strong>Broadcast</strong></td><td>✅ 5 Target</td><td>✅</td><td>❌</td></tr>
-    <tr><td><strong>Daily Trial</strong></td><td>✅ Reset 00:00</td><td>❌</td><td>❌</td></tr>
-    <tr><td><strong>Deploy</strong></td><td>🚀 1 Perintah</td><td>Ribet</td><td>Ribet</td></tr>
-    <tr><td><strong>Custom Request</strong></td><td>✅ Welcome</td><td>❌</td><td>❌</td></tr>
-  </tbody>
-</table>
+| Aspek | 🥇 **MT-BOT** | 🥈 Bot X | 🥉 Bot Y |
+|-------|------------|---------|---------|
+| **7 Protokol** | ✅ | ❌ (3) | ✅ (5) |
+| **4 Payment GW** | ✅ | ❌ (1) | ❌ (2) |
+| **OrderKuota Asli** | ✅ Full | ❌ | ❌ Only QRIS |
+| **OrderKuota RFS** | ✅ Webhook | ❌ | ❌ |
+| **Reseller Auto** | ✅ + Downgrade | ❌ | ✅ Manual |
+| **Promo Targeting** | ✅ 6 Parameter | ❌ Basic | ❌ Basic |
+| **Settings Live** | ✅ 7 Kategori | ❌ | ❌ |
+| **Prorata BW** | ✅ Otomatis | ❌ | ❌ |
+| **Reset Stock** | ✅ | ❌ | ❌ |
+| **Minimal Deposit** | ✅ Configurable | ❌ | ❌ |
+| **Trial Duration** | ✅ Configurable | ❌ | ❌ |
+| **Refund Otomatis** | ✅ | ❌ | ❌ |
+| **Dual Pricing** | ✅ Member/Reseller | ❌ | ✅ |
+| **DB Auto Backup** | ✅ Harian | ❌ | ❌ |
+| **Broadcast** | ✅ 5 Target | ✅ | ❌ |
+| **Daily Trial** | ✅ Reset 00:00 | ❌ | ❌ |
+| **Deploy** | 🚀 1 Perintah | Ribet | Ribet |
 
 ### 💎 Keunggulan Bisnis
 
-<table>
-  <tr>
-    <td>✅ FULL AUTO PILOT</td>
-    <td>Bot berjalan 24/7 tanpa henti</td>
-  </tr>
-  <tr>
-    <td>✅ ORDER ≤ 3 DETIK</td>
-    <td>Pelanggan puas, repeat order tinggi</td>
-  </tr>
-  <tr>
-    <td>✅ 4 PAYMENT GW</td>
-    <td>Jangkau semua metode pembayaran</td>
-  </tr>
-  <tr>
-    <td>✅ RESELLER SYSTEM</td>
-    <td>Scale bisnis tanpa batas</td>
-  </tr>
-  <tr>
-    <td>✅ PROMO FLEXIBLE</td>
-    <td>Strategi marketing unlimited</td>
-  </tr>
-  <tr>
-    <td>✅ SINGLE BINARY</td>
-    <td>Tidak perlu install dependencies Python</td>
-  </tr>
-  <tr>
-    <td>✅ INSTALL 1 MENIT</td>
-    <td>Jalankan 1 perintah, bot langsung siap</td>
-  </tr>
-</table>
-
----
-
-## 🏗️ Arsitektur Sistem
-
-<pre>
-┌─────────────────────────────────────────────────────────────────────┐
-│                          TELEGRAM BOT (Aiogram)                      │
-│  ┌─────────┐ ┌──────────┐ ┌──────────┐ ┌────────────────────────┐  │
-│  │  ORDER  │ │  TOPUP   │ │  ADMIN   │ │     NOTIFIKASI         │  │
-│  │ SERVICE │ │ PAYMENT  │ │  PANEL   │ │     CALLBACK           │  │
-│  └────┬────┘ └────┬─────┘ └────┬─────┘ └───────────┬────────────┘  │
-│       │            │            │                   │               │
-│       │    ┌───────┴───────┐    │    ┌──────────────┴───────────┐  │
-│       │    │ AUTO VERIFY  │    │    │     WEBHOOK SERVER        │  │
-│       │    │ ┌──────────┐ │    │    │  /callback/tripay         │  │
-│       │    │ │ Tripay   │ │    │    │  /callback/tokopay        │  │
-│       │    │ │ Tokopay  │ │    │    │  /callback/orkutrfs       │  │
-│       │    │ │ Orkut    │ │    │    │                       │  │
-│       │    │ └──────────┘ │    │    └───────────────────────────┘  │
-│       │    └───────┬───────┘    │                                   │
-└───────┼────────────┼────────────┼───────────────────────────────────┘
-        │            │            │
-┌───────▼────┐  ┌─────▼─────┐  ┌──▼────────┐
-│   VPN      │  │ PAYMENT   │  │  SQLite   │
-│   SERVERS  │  │   APIs    │  │    DB     │
-│            │  │           │  │           │
-│ • VMess    │  │ • Tripay  │  │ • users   │
-│ • VLess    │  │ • Tokopay │  │ • produk  │
-│ • Trojan   │  │ • Orkut   │  │ • harga   │
-│ • Shadowsocks│ │ • OrkutRFS│  │ • transaksi│
-│ • SSH      │  │           │  │ • promo   │
-│ • NoobzVPN │  │           │  │ • pending │
-│ • ZiVPN    │  │           │  │   _deposits│
-└────────────┘  └───────────┘  └───────────┘
-</pre>
+| ✅ | Keunggulan |
+|----|-------------|
+| 🚀 | **FULL AUTO PILOT** — Bot berjalan 24/7 tanpa henti |
+| ⚡ | **ORDER ≤ 3 DETIK** — Pelanggan puas, repeat order tinggi |
+| 💳 | **4 PAYMENT GW** — Jangkau semua metode pembayaran |
+| 📈 | **RESELLER SYSTEM** — Scale bisnis tanpa batas |
+| 🎁 | **PROMO FLEXIBLE** — Strategi marketing unlimited |
+| 📦 | **SINGLE BINARY** — Tidak perlu install dependencies Python |
+| 🔧 | **LIVE SETTINGS** — Edit konfigurasi tanpa restart |
+| 🎯 | **MIN DEPOSIT** — Atur minimal topup sesuai keinginan |
+| ⏱️ | **TRIAL DURATION** — Atur durasi trial (menit/jam/hari) |
+| 💰 | **REFUND OTOMATIS** — Refund sisa hari saat hapus akun |
 
 ---
 
@@ -374,7 +265,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlNHLVZNZXNzIiwNCiAgImFkZCI6ICJzZzEuZXhh
 ### 💳 Pilihan Payment Gateway
 
 <pre>
-💰 Pilih metode pembayaran:
+💰 Pilih metode pembayaran (Minimal Rp 1.000):
 
 ┌─────────────────┐ ┌─────────────────┐
 │ 💳 OrderKuota   │ │ 💳 Qris RafanStr│
@@ -384,6 +275,51 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlNHLVZNZXNzIiwNCiAgImFkZCI6ICJzZzEuZXhh
 
 🔙 Kembali
 </pre>
+
+### ⚙️ Menu Settings (Live Config)
+
+<pre>
+⚙️ Pengaturan Sistem
+Pilih kategori yang ingin dikonfigurasi:
+
+┌─────────────────┐ ┌─────────────────┐
+│ ⚙️ License      │ │ ⚙️ Tokopay      │
+├─────────────────┼─────────────────┤
+│ ⚙️ Tripay       │ │ ⚙️ Orkut RafanStr│
+├─────────────────┼─────────────────┤
+│ ⚙️ OrderKuota   │ │ ⚙️ Endpoints    │
+├─────────────────┼─────────────────┤
+│ ⚙️ Konfigurasi  │ │                 │
+│   tambahan      │ │                 │
+└─────────────────┴─────────────────┘
+
+🔙 Kembali
+</pre>
+
+---
+
+## 📊 Perbandingan Kompetitor
+
+| Fitur | 🥇 **MT-BOT** | 🥈 Bot X | 🥉 Bot Y |
+|-------|------------|---------|---------|
+| **7 Protokol** | ✅ | ❌ (3) | ✅ (5) |
+| **4 Payment GW** | ✅ | ❌ (1) | ❌ (2) |
+| **OrderKuota Asli** | ✅ Full | ❌ | ❌ Only QRIS |
+| **OrderKuota RFS** | ✅ Webhook | ❌ | ❌ |
+| **Reseller Auto** | ✅ + Downgrade | ❌ | ✅ Manual |
+| **Promo Targeting** | ✅ 6 Parameter | ❌ Basic | ❌ Basic |
+| **Settings Live** | ✅ 7 Kategori | ❌ | ❌ |
+| **Prorata BW** | ✅ Otomatis | ❌ | ❌ |
+| **Reset Stock** | ✅ | ❌ | ❌ |
+| **Minimal Deposit** | ✅ Configurable | ❌ | ❌ |
+| **Trial Duration** | ✅ Configurable | ❌ | ❌ |
+| **Refund Otomatis** | ✅ | ❌ | ❌ |
+| **Dual Pricing** | ✅ Member/Reseller | ❌ | ✅ |
+| **DB Auto Backup** | ✅ Harian | ❌ | ❌ |
+| **Broadcast** | ✅ 5 Target | ✅ | ❌ |
+| **Daily Trial** | ✅ Reset 00:00 | ❌ | ❌ |
+| **Deploy** | 🚀 1 Perintah | Ribet | Ribet |
+| **Custom Request** | ✅ Welcome | ❌ | ❌ |
 
 ---
 
@@ -402,14 +338,20 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlNHLVZNZXNzIiwNCiAgImFkZCI6ICJzZzEuZXhh
 │   💰 BIAYA SEWA: Rp 50.000/bulan                               │
 │                                                                 │
 │   ✅ SEMUA FITUR TERMASUK:                                      │
-│   ├─ 7 Protokol VPN                                            │
-│   ├─ 4 Payment Gateway                                         │
+│   ├─ 7 Protokol VPN (VMess, VLess, Trojan, Shadowsocks,        │
+│   │                 SSH, NoobzVPN, ZiVPN)                      │
+│   ├─ 4 Payment Gateway (OrderKuota, OrderKuota RFS,            │
+│   │                 Tripay, Tokopay)                           │
 │   ├─ Reseller System + Auto Downgrade                          │
 │   ├─ Promo Code System (6 parameter targeting)                 │
-│   ├─ Admin Panel Lengkap                                       │
-│   ├─ Auto Backup Database                                      │
+│   ├─ Admin Panel Lengkap (Server, User, Promo, Broadcast)      │
+│   ├─ Auto Backup Database (tiap tengah malam)                  │
 │   ├─ Daily Trial Reset (otomatis tiap 00:00)                   │
-│   ├─ Live Settings Edit (tanpa restart)                        │
+│   ├─ Live Settings Edit (7 kategori, tanpa restart)            │
+│   ├─ Minimal Deposit Configurable                              │
+│   ├─ Trial Duration Configurable                               │
+│   ├─ Reset Stock Server                                        │
+│   ├─ Refund Otomatis (ikut harga server saat ini)              │
 │   ├─ Single Binary (install 1 perintah)                        │
 │   └─ Free Update (selama masa sewa)                            │
 │                                                                 │
@@ -443,63 +385,38 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlNHLVZNZXNzIiwNCiAgImFkZCI6ICJzZzEuZXhh
 
 ### 📋 Persyaratan Server
 
-<table>
-  <tr>
-    <td colspan="2"><strong>Minimal:</strong></td>
-  </tr>
-  <tr>
-    <td>OS</td>
-    <td>Debian 10+ / Ubuntu 20.04+</td>
-  </tr>
-  <tr>
-    <td>RAM</td>
-    <td>1 GB</td>
-  </tr>
-  <tr>
-    <td>CPU</td>
-    <td>1 Core</td>
-  </tr>
-  <tr>
-    <td>Storage</td>
-    <td>10 GB free</td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>Required:</strong></td>
-  </tr>
-  <tr>
-    <td>Bot Token</td>
-    <td>dari @BotFather (GRATIS)</td>
-  </tr>
-  <tr>
-    <td>Payment Gateway</td>
-    <td>OrderKuota / OrderKuota RFS / Tripay / Tokopay (GRATIS daftar)</td>
-  </tr>
-  <tr>
-    <td>VPN Server</td>
-    <td>Server VPN yang support API (punya sendiri)</td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>Optional:</strong></td>
-  </tr>
-  <tr>
-    <td>Domain + SSL</td>
-    <td>untuk webhook callback (disarankan)</td>
-  </tr>
-</table>
+| Komponen | Minimal |
+|----------|---------|
+| **OS** | Debian 10+ / Ubuntu 20.04+ |
+| **RAM** | 1 GB |
+| **CPU** | 1 Core |
+| **Storage** | 10 GB free |
+
+**Required:**
+- Bot Token dari @BotFather (GRATIS)
+- Akun payment gateway (GRATIS daftar, pilih salah satu atau semua):
+  - OrderKuota
+  - OrderKuota RFS (via @payqrme_bot)
+  - Tripay
+  - Tokopay
+- Server VPN yang support API (punya sendiri)
+
+**Optional:**
+- Domain + SSL untuk webhook callback (disarankan)
 
 ### ⚡ Perintah Instalasi
 
 > **Hubungi saya untuk mendapatkan link installer:** [@mehonk_cs](https://t.me/mehonk_cs)
 
-```bash
+<pre>
 # Setelah mendapatkan link installer, jalankan:
 apt update && apt install wget curl jq -y && \
 wget --no-check-certificate [LINK_INSTALLER] && \
 chmod +x setup-bot && \
 ./setup-bot
-```
+</pre>
 
-📝 Proses Instalasi Interaktif
+### 📝 Proses Instalasi Interaktif
 
 Installer akan memandu Anda mengisi:
 
@@ -526,14 +443,16 @@ Installer akan memandu Anda mengisi:
 ┌─────────────────────────────────────────────────────────────┐
 │  STEP 3: FITUR TAMBAHAN (OPSIONAL)                          │
 ├─────────────────────────────────────────────────────────────┤
-│  • Auto Downgrade     → target transaksi reseller/bulan    │
-│  • HTTPS + SSL        → domain untuk webhook               │
+│  • Minimal Deposit   → nominal minimal topup               │
+│  • Trial Duration    → durasi trial (30m / 1h / 7)         │
+│  • Auto Downgrade    → target transaksi reseller/bulan     │
+│  • HTTPS + SSL       → domain untuk webhook                │
 └─────────────────────────────────────────────────────────────┘
 </pre>
 
-✅ Verifikasi Instalasi
+### ✅ Verifikasi Instalasi
 
-```bash
+<pre>
 # Cek status bot
 systemctl status mt_bot
 
@@ -542,11 +461,25 @@ journalctl -u mt_bot.service -f
 
 # Test ke bot di Telegram
 # Kirim /start ke @nama_bot_anda
-```
+</pre>
+
+### 🔧 Settings Live (Setelah Instalasi)
+
+Setelah bot berjalan, Anda bisa mengubah konfigurasi tanpa restart melalui menu **Settings** di bot:
+
+| Kategori | Yang Bisa Diubah |
+|----------|------------------|
+| License | API URL, API Key, Secret Key |
+| Tokopay | Merchant, Secret |
+| Tripay | API Key, Private Key, Merchant Code |
+| Orkut RafanStr | API Key, Callback URL |
+| OrderKuota | Auth Username, Token, App Version, dll |
+| Endpoints | Aktif/nonaktifkan gateway |
+| Konfigurasi | CS Admin, Min Deposit, Daily Trial, Time Trial, Notifikasi, Auto Downgrade |
 
 ---
 
-❓ FAQ
+## ❓ FAQ
 
 <details>
 <summary><b>🤔 Kenapa sewa lisensi bukan beli putus?</b></summary>
@@ -593,67 +526,67 @@ Ya! Trial 3 hari full fitur — testing semua fitur sebelum commit sewa.
 <details>
 <summary><b>💳 Payment gateway mana yang harus saya pilih?</b></summary>
 
-<table>
-  <tr><th>Kebutuhan</th><th>Rekomendasi</th></tr>
-  <tr><td>Ingin withdraw otomatis</td><td>OrderKuota Asli</td></tr>
-  <tr><td>Ingin verifikasi cepat (&lt; 3 detik)</td><td>OrderKuota RFS atau Tripay</td></tr>
-  <tr><td>Butuh banyak metode pembayaran (VA, Retail)</td><td>Tripay</td></tr>
-  <tr><td>Simple dan gratis</td><td>Tokopay</td></tr>
-  <tr><td>All-in-one</td><td>Setup semua 4 gateway!</td></tr>
-</table>
+| Kebutuhan | Rekomendasi |
+|-----------|-------------|
+| Ingin withdraw otomatis | OrderKuota Asli |
+| Ingin verifikasi cepat (< 3 detik) | OrderKuota RFS atau Tripay |
+| Butuh banyak metode pembayaran (VA, Retail) | Tripay |
+| Simple dan gratis | Tokopay |
+| All-in-one | Setup semua 4 gateway! |
+
+</details>
+
+<details>
+<summary><b>⏱️ Berapa durasi trial default?</b></summary>
+
+Default 30 menit, bisa diubah via Settings ke menit (`30m`), jam (`1h`), atau hari (`7`).
+
+</details>
+
+<details>
+<summary><b>💰 Berapa minimal deposit?</b></summary>
+
+Default Rp 1.000, bisa diubah via Settings ke nominal berapa pun yang Anda inginkan.
+
+</details>
+
+<details>
+<summary><b>💰 Bagaimana sistem refund?</b></summary>
+
+Saat menghapus akun sebelum expired, refund dihitung berdasarkan:
+- Harga harian server **SAAT INI** (bukan harga pas beli)
+- Sisa hari yang tidak terpakai
+- Admin tidak mendapat refund (karena harga = 0)
 
 </details>
 
 ---
 
-🆕 Roadmap & Request Fitur
+## 🆕 Roadmap & Request Fitur
 
-In Progress / Planned
+### In Progress / Planned
 
-<table>
-  <tr>
-    <td>📊</td>
-    <td>Panel Web monitoring (opsional)</td>
-  </tr>
-  <tr>
-    <td>🌐</td>
-    <td>Multi-language support (EN/ID)</td>
-  </tr>
-  <tr>
-    <td>📎</td>
-    <td>Export transaksi ke CSV/Excel</td>
-  </tr>
-  <tr>
-    <td>💳</td>
-    <td>Integrasi payment gateway lain (Xendit, Midtrans)</td>
-  </tr>
-  <tr>
-    <td>🔔</td>
-    <td>Notifikasi via Discord/WhatsApp</td>
-  </tr>
-</table>
+- [ ] Panel Web monitoring (opsional)
+- [ ] Multi-language support (EN/ID)
+- [ ] Export transaksi ke CSV/Excel
+- [ ] Integrasi payment gateway lain (Xendit, Midtrans)
+- [ ] Notifikasi via Discord/WhatsApp
 
-Request Fitur
+### Request Fitur
 
-Punya ide fitur yang belum ada? Sampaikan! Saya sangat terbuka dengan custom request untuk meningkatkan value bot ini.
+> **Punya ide fitur yang belum ada? Sampaikan!** Saya sangat terbuka dengan custom request untuk meningkatkan value bot ini.
 
 ---
 
-📞 Kontak & Order
+## 📞 Kontak & Order
 
 <div align="center">
 
-🤝 Siap Automasi Bisnis VPN Anda?
+### 🤝 **Siap Automasi Bisnis VPN Anda?**
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://t.me/mehonk_cs">
-        <img src="https://img.shields.io/badge/Telegram-@mehonk_cs-blue?style=for-the-badge&logo=telegram" width="300">
-      </a>
-    </td>
-  </tr>
-</table>
+| Kontak | Link |
+|--------|------|
+| **Telegram** | [@mehonk_cs](https://t.me/mehonk_cs) |
 
 <pre>
 1. Kirim IP VPS Anda ke @mehonk_cs
@@ -665,17 +598,14 @@ Punya ide fitur yang belum ada? Sampaikan! Saya sangat terbuka dengan custom req
 
 ---
 
-"Sewa lisensi, install 1 menit, bisnis auto pilot!"
+**"Sewa lisensi, install 1 menit, bisnis auto pilot!"**
 
-🚀 MT-BOT — Simple, Powerful, Affordable
+🚀 **MT-BOT — Simple, Powerful, Affordable**
 
 ---
 
 <sub>© 2024-2025 MT-BOT — Premium Telegram Bot Solution for VPN Business</sub>
-
-
+<br>
 <sub>All rights reserved.</sub>
 
 </div>
-</body>
-</html>
