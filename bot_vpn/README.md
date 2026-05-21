@@ -604,7 +604,7 @@ Saat menghapus akun sebelum expired, refund dihitung berdasarkan:
 
 ---
 
-<sub>© 2024-2025 MT-BOT — Premium Telegram Bot Solution for VPN Business</sub>
+<sub>© 2026 MT-BOT — Premium Telegram Bot Solution for VPN Business</sub>
 <br>
 <sub>All rights reserved.</sub>
 
